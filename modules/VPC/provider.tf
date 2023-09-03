@@ -10,8 +10,3 @@ terraform {
 provider "aws" {
   region = var.region_name
 }
-
-default tags {
-  "Application" = "Kubernetes"
-  "Tool" = "terraform" 
-}
